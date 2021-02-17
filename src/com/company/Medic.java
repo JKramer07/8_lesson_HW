@@ -1,13 +1,14 @@
 package com.company;
 
 public class Medic extends Hero{
-    public Medic(int health, int damage, String superAbilityType) {
-        super(health, damage, superAbilityType);
+
+    public Medic(int health, int damage) {
+        super(health, damage);
     }
 
     @Override
     public void applySuperAbility(String superAbilityType) {
         super.applySuperAbility(superAbilityType);
-        System.out.println("Медик применил ИСЦЕЛЕНИЕ РАН");
+        System.out.println("Медик применил ПОЛНОЕ ИСЦЕЛЕНИЕ");
     }
 }

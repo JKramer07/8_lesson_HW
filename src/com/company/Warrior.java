@@ -1,8 +1,8 @@
 package com.company;
 
 public class Warrior extends Hero{
-    public Warrior(int health, int damage, String superAbilityType) {
-        super(health, damage, superAbilityType);
+    public Warrior(int health, int damage) {
+        super(health, damage);
     }
 
     @Override
